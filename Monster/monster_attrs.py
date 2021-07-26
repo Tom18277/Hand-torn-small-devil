@@ -16,6 +16,11 @@ class MonsterAttrs(object):
         print(self.Blood,self.Armor)
 
     def factory(self, monster_name):
+        """
+        制造工厂
+        @param monster_name: 接受一个怪物名称
+        @return: 初始化怪物属性
+        """
         monster_attrs = {
             '三等兵': (80, 10, 0),
             '二等兵': (100, 20, 0),

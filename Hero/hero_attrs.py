@@ -22,6 +22,10 @@ class MakeHero(object):
         self.Humanity = 10
 
     def factory(self):
+        """
+        制造工厂
+        @return:
+        """
         count = 15
         print(f'系统将会自动分配点数至您的英雄结构树上，共{count}点')
         print("""
@@ -50,12 +54,16 @@ class MakeHero(object):
 人脉:%d""" % (self.Understand, self.Blood, self.harm, self.Armor, self.dodge, self.agile, self.Humanity))
 
     def goUp(self):
+        """
+        角色升级
+        @return:
+        """
         self.Understand += random.randint(3,7)
         self.Blood += 15
         self.harm += random.randint(5,10)
-        self.Armor += 20
-        self.dodge += 10.0
-        self.agile += 10.0
+        self.Armor += 5
+        self.dodge += round(random.uniform(0.4,2.8),2)
+        self.agile += round(random.uniform(1.1,2.3),2)
         self.Humanity += random.randint(5,10)
 
 
