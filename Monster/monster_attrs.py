@@ -40,6 +40,3 @@ class MonsterAttrs(object):
         return monster_attrs[monster_name]
 
 
-BitchName = ['大佐', '大尉', '少尉', '准士官', '准尉', '军士长', '上士', '中士',
-             '伍长', '下士', '上等兵', '一等兵', '二等兵', '三等兵', ]
-monster_name = random.choice(BitchName)

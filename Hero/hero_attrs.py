@@ -65,6 +65,3 @@ class MakeHero(object):
         self.dodge += round(random.uniform(0.4,2.8),2)
         self.agile += round(random.uniform(1.1,2.3),2)
         self.Humanity += random.randint(5,10)
-
-
-a = MakeHero().factory()
