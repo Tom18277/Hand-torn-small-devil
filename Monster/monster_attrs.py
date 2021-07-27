@@ -13,7 +13,6 @@ class MonsterAttrs(object):
         self.Blood = self.attr_[0]
         self.harm = self.attr_[1]
         self.Armor = self.attr_[2]
-        print(self.Blood,self.Armor)
 
     def factory(self, monster_name):
         """
