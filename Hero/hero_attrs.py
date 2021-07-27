@@ -52,6 +52,7 @@ class MakeHero(object):
 闪避:%.2f
 敏捷:%.2f
 人脉:%d""" % (self.Understand, self.Blood, self.harm, self.Armor, self.dodge, self.agile, self.Humanity))
+        return (self.Understand, self.Blood, self.harm, self.Armor, self.dodge, self.agile, self.Humanity)
 
     def goUp(self):
         """

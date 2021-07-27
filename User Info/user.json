@@ -1,0 +1,16 @@
+{
+    "play": [
+        "admin",
+        "admin",
+        "001"
+    ],
+    "attrs": {
+        "Understand": 11,
+        "Blood": 104,
+        "harm": 23,
+        "Armor": 22,
+        "dodge": 11.0,
+        "agile": 12.0,
+        "Humanity": 12
+    }
+}
